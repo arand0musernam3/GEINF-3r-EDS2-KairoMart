@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Strategy {
 
 	public static void main(String[] args) {
-		TextFormatter formatter = new Default();
+		Formatter f = new Formatter();
 		Scanner scanner = new Scanner(System.in);
 
 		System.out.println("0. Exit");
@@ -20,11 +20,11 @@ public class Strategy {
 
 			switch (line) {
 				case "0" -> System.exit(0);
-				case "1" -> formatter = new Default();
-				case "2" -> formatter = new Uppercase();
-				case "3" -> formatter = new Binary();
-				case "4" -> formatter = new Cowsay();
-				default -> System.out.println(formatter.format(line));
+				case "1" -> f.changeFormatter(new Default());
+				case "2" -> f.changeFormatter(new Uppercase());
+				case "3" -> f.changeFormatter(new Binary());
+				case "4" -> f.changeFormatter(new Cowsay());
+				default -> System.out.println(f.format(line));
 			}
 		}
     }
