@@ -1,6 +1,13 @@
 import java.util.ArrayList;
 
 public class Blog {
+
+	public Blog() {
+		_posts = new ArrayList<>();
+		_observers = new ArrayList<>();
+		_users = new ArrayList<>();
+	}
+
 	public void attach(BlogObserver o) {
 		_observers.add(o);
 	}
@@ -11,7 +18,7 @@ public class Blog {
 
 	public void notifyUsers() {
 		for (BlogObserver o : _observers) {
-			o.notify();
+			o.update();
 		}
 	}
 
@@ -21,6 +28,7 @@ public class Blog {
 
 	public void addPost(String post) {
 		_posts.add(post);
+		notifyUsers();
 	}
 
 
