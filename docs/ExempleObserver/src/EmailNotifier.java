@@ -7,7 +7,7 @@ public class EmailNotifier implements BlogObserver{
 
 	@Override
 	public void update() {
-		System.out.print("Correu electrònic enviat a " + _user.getMail() + "! Hi ha un nou post al blog:\n" +
+		System.out.print(" - Correu electrònic enviat a " + _user.getMail() + "! Hi ha un nou post al blog:\n\t" +
 				_subject.getLatestPost().substring(0, 10));
 		if (_subject.getLatestPost().length() > 10)
 			System.out.println("...");

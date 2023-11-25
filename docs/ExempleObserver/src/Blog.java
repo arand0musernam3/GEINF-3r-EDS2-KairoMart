@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Blog {
+public class Blog implements Subject {
 
 	public Blog() {
 		_posts = new ArrayList<>();
