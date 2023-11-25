@@ -5,7 +5,6 @@ public class Blog implements Subject {
 	public Blog() {
 		_posts = new ArrayList<>();
 		_observers = new ArrayList<>();
-		_users = new ArrayList<>();
 	}
 
 	public void attach(BlogObserver o) {
@@ -23,16 +22,15 @@ public class Blog implements Subject {
 	}
 
 	public String getLatestPost() {
-		return _posts.getLast();
+		return _posts.getLast().message();
 	}
 
-	public void addPost(String post) {
+	public void addPost(Post post) {
 		_posts.add(post);
 		notifyUsers();
 	}
 
 
-	private ArrayList<String> _posts;
-	private ArrayList<User> _users;
+	private ArrayList<Post> _posts;
 	private ArrayList<BlogObserver> _observers;
 }

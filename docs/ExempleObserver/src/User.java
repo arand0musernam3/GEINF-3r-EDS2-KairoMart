@@ -35,10 +35,6 @@ public class User {
 		return _mail;
 	}
 
-	public void addNew(String n) {
-		_blog.addPost(n);
-	}
-
 	private String _mail;
 
 	private NewsBoxNotifier _news_notifier;
