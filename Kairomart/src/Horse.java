@@ -1,2 +1,2 @@
-public class Horse extends IMotor {
+public class Horse extends Motor {
 }

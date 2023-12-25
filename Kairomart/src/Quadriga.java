@@ -1,3 +1,3 @@
-public class Quadriga extends IMotor {
+public class Quadriga extends Motor {
 
 }
