@@ -1,2 +1,2 @@
-public class Biga extends Motor {
+public class Biga extends IMotor {
 }

@@ -4,18 +4,18 @@ public class Terrain {
     private String _type;
     private String _description;
 
-    private HashMap<Motor, Float> _adaptability;
+    private HashMap<IMotor, Float> _adaptability;
 
     Terrain(String type, String desc) {
         _type = type;
         _description = desc;
     }
 
-    void setAdaptability(Motor m, float f) {
+    void setAdaptability(IMotor m, float f) {
         _adaptability.put(m, f);
     }
 
-    float getAdaptability(Motor m) {
+    float getAdaptability(IMotor m) {
         return _adaptability.get(m);
     }
 }

@@ -1,2 +1,3 @@
-public class Motor {
+public abstract class Motor implements IMotor {
+
 }
