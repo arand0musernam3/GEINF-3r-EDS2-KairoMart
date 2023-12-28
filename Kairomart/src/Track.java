@@ -40,7 +40,7 @@ public class Track {
 
 
 
-    public Terrain getTerrainByPosition(Position p) {
+    public Terrain getTerrainByPosition(Vec2f position) {
 
     }
 }
