@@ -79,7 +79,7 @@ public class Race {
     public void listPlayers() {
         int i = 1;
         for (Player p : _players) {
-            System.out.println(i + ". " + p);
+            System.out.println(i + ". " + p + "(" + Math.max(Math.min(100,(int)(p.vehicle().position().x * 100 / Track.WIDTH)),0) + "%)");
             i++;
         }
     }
