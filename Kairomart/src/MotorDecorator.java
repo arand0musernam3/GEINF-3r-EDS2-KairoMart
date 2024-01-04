@@ -18,6 +18,13 @@ public abstract class MotorDecorator implements IMotor, IMotorWrapper {
 	}
 
 	@Override
+	public float terrainAdaptability(Terrain terrain) {
+
+		return _wrappee.terrainAdaptability(terrain);
+
+	}
+
+	@Override
 	public float accelerate(float speed, float by) {
 
 		return _wrappee.accelerate(speed, by);

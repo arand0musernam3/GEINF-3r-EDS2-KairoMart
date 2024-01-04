@@ -20,7 +20,16 @@ public abstract class Motor implements IMotor {
         return angle + by*_handling/_weight*100f;
     }
 
+    @Override
     public String name() {
         return _name;
     }
+
+    @Override
+    public float terrainAdaptability(Terrain terrain) {
+
+        return TerrainAdaptability.getAdaptability(terrain, this);
+
+    }
+
 }

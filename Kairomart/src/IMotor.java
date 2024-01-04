@@ -2,6 +2,8 @@ public interface IMotor {
 
 	String name();
 
+	float terrainAdaptability(Terrain terrain);
+
 	/**
 	 * @return change in speed. by defines player input, 1 being acceleration, 0 maintaining the last speed, -1 being
 	 * braking. speed in m/s
