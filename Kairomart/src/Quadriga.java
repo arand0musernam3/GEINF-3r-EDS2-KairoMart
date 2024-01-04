@@ -1,27 +1,17 @@
 public class Quadriga extends Motor {
 
     Quadriga() {
-        _acceleration = 1f;
+        _acceleration = 2f;
         _handling = 0.5f;
         _weight = 100f;
         _braking_power = 1f;
         _max_speed = 200f;
-        _hit_resistance = 0.1f; //TODO CHANGE VALUES
         _name = "Quadriga";
     }
 
     @Override
     public float accelerate(float speed, float by) {
-        return 0; //TODO
-    }
-
-    @Override
-    public float turn(float angle, float by) {
-        return 0; //TODO
-    }
-
-    @Override
-    public Vec2f move(float speed, float angle) {
-        return null; //TODO
+        float acc = by > 0 ? _acceleration : _braking_power;
+        return Math.max(_max_speed, speed + by*acc*Race.delta_time) - speed;
     }
 }

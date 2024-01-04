@@ -4,16 +4,20 @@ public abstract class Motor implements IMotor {
     protected float _acceleration;
     protected float _handling;
     protected float _braking_power;
-    protected float _hit_resistance;
     protected String _name;
 
     @Override
-    public Vec2f move(float speed, float angle) {
+    public final Vec2f move(float speed, float angle) {
 
         float x = (float)(Math.cos(angle) * speed);
         float y = (float)(Math.sin(angle) * speed);
 
         return new Vec2f(x, y);
+    }
+
+    @Override
+    public final float turn(float angle, float by) {
+        return angle + by*_handling/_weight*100f;
     }
 
     public String name() {

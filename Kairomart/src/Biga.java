@@ -6,22 +6,13 @@ public class Biga extends Motor {
         _weight = 100f;
         _braking_power = 1f;
         _max_speed = 200f;
-        _hit_resistance = 0.1f;//TODO CHANGE VALUES
         _name = "Biga";
     }
 
     @Override
     public float accelerate(float speed, float by) {
-        return 0; //TODO
+        float acc = by > 0 ? _acceleration : _braking_power;
+        return Math.max(_max_speed, speed + by/(1 + speed) * acc*Race.delta_time) - speed;
     }
 
-    @Override
-    public float turn(float angle, float by) {
-        return 0; //TODO
-    }
-
-    @Override
-    public Vec2f move(float speed, float angle) {
-        return null; //TODO
-    }
 }
