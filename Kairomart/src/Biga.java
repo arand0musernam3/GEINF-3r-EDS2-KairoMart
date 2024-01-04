@@ -12,7 +12,7 @@ public class Biga extends Motor {
     @Override
     public float accelerate(float speed, float by) {
         float acc = by > 0 ? _acceleration : _braking_power;
-        return Math.min(_max_speed, speed + by/(1 + speed) * acc*Race.delta_time) - speed;
+        return Math.max(Math.min(_max_speed, speed + by/(1 + speed) * acc*Race.delta_time) - speed, 0f);
     }
 
 }
