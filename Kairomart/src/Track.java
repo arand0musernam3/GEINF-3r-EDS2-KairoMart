@@ -41,6 +41,6 @@ public class Track {
 
 
     public Terrain getTerrainByPosition(Vec2f position) {
-        return null;
+        return _track.get((int) position.x);
     }
 }
