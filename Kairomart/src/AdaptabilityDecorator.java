@@ -10,6 +10,12 @@ public class AdaptabilityDecorator extends MotorDecorator {
 
 	}
 
+	public void updateAdaptability(float adaptability) {
+
+		_adaptability = adaptability;
+
+	}
+
 	@Override
 	public float accelerate(float speed, float by) {
 

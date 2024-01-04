@@ -33,25 +33,29 @@ public class Vehicle implements IMotorWrapper {
 
 	}
 
-	public void accelerate(float by) {
+	public float accelerate(float by) {
 
-		_velocity += _motor.accelerate(_velocity, by);
+		float chg = _motor.accelerate(_velocity, by);
+		_velocity += chg;
 
+		return chg;
 	}
 
-	public void turn(float by) {
+	public float turn(float by) {
 
-		_angle += _motor.turn(_angle, by);
+		float chg = _motor.turn(_angle, by);
+		_angle += chg;
 
+		return chg;
 	}
 
-	public void move() {
+	public Vec2f move() {
 
 		Vec2f chg = _motor.move(_velocity, _angle);
-
 		_position.x += chg.x;
 		_position.y += chg.y;
 
+		return chg;
 	}
 
 }
