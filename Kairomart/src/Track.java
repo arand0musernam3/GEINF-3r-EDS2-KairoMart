@@ -15,30 +15,25 @@ public class Track {
     Track(String name, int difficulty) {
         _name = name;
         _difficulty = difficulty;
-        _height = 1000;
-        _width = 1000;
+        _height = 10000;
+        _width = 10000;
+        _track = new ArrayList<>();
+
+        Terrain road = new Terrain("Road", "Recently asphalted road.");
+        Terrain mud = new Terrain("Mud", "Slippery and gets your car dirty.");
+
+        for (int i = 0; i < _height; i++) {
+            if (i < 4000) {
+                _track.add(i, road);
+            }
+            else if (i < 6000) {
+                _track.add(i, mud);
+            }
+            else {
+                _track.add(i, road);
+            }
+        }
     }
-
-    /**
-     * TODO:
-     * @Jordi la inicialització del track l'hauràs de fer a la classe race, jo pensava fer algo de l'estil següent:
-     * ArrayList<Terrain> _track;
-     * for (int i = 0; i < _height (1000); i++) {
-     *     if (i < 400) {
-     *         _track[i] = Road;
-     *     }
-     *     else if (i < 600) {
-     *         _track[i] = Mud;
-     *     }
-     *     else {
-     *         _track[i] = Road;
-     *     }
-     * }
-     *
-     * nose com ho veus, ja en parlarem!
-     */
-
-
 
     public Terrain getTerrainByPosition(Vec2f position) {
         return _track.get((int) position.x);
