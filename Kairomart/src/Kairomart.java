@@ -1,5 +1,7 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.DoubleSummaryStatistics;
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class Kairomart {
@@ -32,12 +34,32 @@ public class Kairomart {
                     int vehicle = stdin.nextInt();
 
                     race.addPlayer(name,character,vehicle);
+
+                    System.out.println("Jugadors inscrits:");
+                    race.listPlayers();
                     break;
                 case 2:
-                    // Opcio 2
+                    System.out.println("Entra L'ÍNDEX del jugador");
+                    race.listPlayers();
+                    int index = stdin.nextInt();
+
+                    System.out.println("Què vols fer? (Entra el número)");
+                    System.out.println("1. Accelerar");
+                    System.out.println("2. Girar");
+                    int move_type = stdin.nextInt();
+
+                    System.out.println("Entra el factor del moviment (entre -1 i 1)");
+                    int factor = stdin.nextInt();
+
+                    race.updateVehicle(index,factor,move_type);
+                    System.out.println("Moviment programat, no s'aplicarà fins que es cridi la opció 3!");
                     break;
                 case 3:
-                    // Opcio 3
+                    race.moveVehicles();
+                    race.listPlayers();
+                    break;
+                case 4:
+                    race.listPlayers();
                     break;
                 default:
                     System.out.println("Opció desconeguda, entra'n una altra");
@@ -61,7 +83,8 @@ public class Kairomart {
         System.out.println("Menú principal:");
         System.out.println("1. Introduir jugador");
         System.out.println("2. Moure vehicle");
-        System.out.println("3. Mostrar situació de la carrera");
+        System.out.println("3. Executar tick");
+        System.out.println("4. Mostrar situació de la carrera");
         System.out.println("0. Sortir");
 
     }

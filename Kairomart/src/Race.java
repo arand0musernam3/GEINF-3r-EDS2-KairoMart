@@ -1,11 +1,10 @@
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.Scanner;
+import java.util.*;
 
 public class Race {
 
     Race() {
+        _track = new Track("Computer Science Plains", 5);
+
         _characters = new ArrayList<>();
         _players = new ArrayList<>();
 
@@ -18,15 +17,25 @@ public class Race {
         _characters.add(new Character(name,desc));
     }
 
-    void addPlayer(String name, int i_character, int i_vehicle) {
+    public void addPlayer(String name, int i_character, int i_vehicle) {
 
         _players.add(new Player(name, _characters.get(i_character-1), new Vehicle(motorSwitch(i_vehicle))));
 
     }
 
-    //TODO
-    Iterator<Player> getClassification() {
-        return null;
+    public void updateVehicle(int i_player, int factor, int move_type) {
+        if (move_type == 1)
+            _players.get(i_player-1).vehicle().accelerate(factor);
+        else
+            _players.get(i_player-1).vehicle().turn(factor);
+    }
+
+    public void moveVehicles() {
+        for (Player p : _players) {
+            p.vehicle().move();
+        }
+        Collections.sort(_players);
+        Collections.reverse(_players);
     }
 
     public void listCharacters() {
@@ -37,10 +46,17 @@ public class Race {
         }
     }
     public void listVehicles() {
-
         for (int i = 1; i <= 3; i++)
             System.out.println(i + ". " + motorSwitch(i).name());
 
+    }
+
+    public void listPlayers() {
+        int i = 1;
+        for (Player p : _players) {
+            System.out.println(i + ". " + p);
+            i++;
+        }
     }
 
     private Motor motorSwitch(int i) {
