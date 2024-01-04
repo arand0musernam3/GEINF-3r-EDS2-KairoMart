@@ -130,13 +130,12 @@ public class Kairomart {
             // Clip finishing; see comments.
             public void run() {
                 try {
+                    File file = new File("data/jordi.wav");
+                    AudioInputStream inputStream = AudioSystem.getAudioInputStream(file.toURI().toURL());
+
                     Clip clip = AudioSystem.getClip();
-                    while (true) {
-                        File file = new File("data/jordi.wav");
-                        AudioInputStream inputStream = AudioSystem.getAudioInputStream(file.toURI().toURL());
-                        clip.open(inputStream);
-                        clip.start();
-                    }
+                    clip.open(inputStream);
+                    clip.loop(Clip.LOOP_CONTINUOUSLY);
                 } catch (Exception e) {
                     System.err.println(e.getMessage());
                 }
