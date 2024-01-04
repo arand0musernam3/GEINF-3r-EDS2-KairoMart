@@ -1,7 +1,5 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.DoubleSummaryStatistics;
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class Kairomart {
