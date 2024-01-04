@@ -1,6 +1,9 @@
 import java.util.HashMap;
 
 public class Terrain {
+    public static final int ROAD = 0;
+    public static final int MUD = 1;
+
     private String _type;
     private String _description;
 

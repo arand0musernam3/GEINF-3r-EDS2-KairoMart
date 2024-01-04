@@ -94,7 +94,11 @@ public class Kairomart {
             while (reader.hasNextLine()) {
                 String name = reader.nextLine();
                 String desc = reader.nextLine();
-                race.addCharacter(name,desc);
+                float quadriga_adapt = reader.nextFloat();
+                float biga_adapt = reader.nextFloat();
+                float horse_adapt = reader.nextFloat();
+                reader.nextLine();
+                race.addCharacter(name,desc, quadriga_adapt, biga_adapt, horse_adapt);
             }
         } catch (FileNotFoundException e) {
             System.out.println("No s'ha trobat el fitxer de \"characters.txt\"");

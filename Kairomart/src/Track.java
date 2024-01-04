@@ -10,27 +10,24 @@ public class Track {
     //this should be a matrix, in order to simplify the example we will treat the track as a one dimensional space,
     //so that only the x coordinate will have an effect on the change of terrain. In the real game this would
     //be a surface.
-    private ArrayList<Terrain> _track;
+    private final ArrayList<Terrain> _track;
 
-    Track(String name, int difficulty) {
+    Track(String name, int difficulty, ArrayList<Terrain> terrains) {
         _name = name;
         _difficulty = difficulty;
         _height = 10000;
         _width = 10000;
         _track = new ArrayList<>();
 
-        Terrain road = new Terrain("Road", "Recently asphalted road.");
-        Terrain mud = new Terrain("Mud", "Slippery and gets your car dirty.");
-
         for (int i = 0; i < _height; i++) {
             if (i < 4000) {
-                _track.add(i, road);
+                _track.add(i, terrains.get(Terrain.ROAD));
             }
             else if (i < 6000) {
-                _track.add(i, mud);
+                _track.add(i, terrains.get(Terrain.MUD));
             }
             else {
-                _track.add(i, road);
+                _track.add(i, terrains.get(Terrain.ROAD));
             }
         }
     }
