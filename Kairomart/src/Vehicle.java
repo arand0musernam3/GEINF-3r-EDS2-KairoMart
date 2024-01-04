@@ -8,7 +8,8 @@ public class Vehicle implements IMotorWrapper {
 
 	public Vehicle(IMotor motor) {
 
-		_motor = motor;
+		setWrappee(motor);
+
 		_position = new Vec2f(0f, 0f);
 		_velocity = 0f;
 		_angle = 0f;
