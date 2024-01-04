@@ -1,9 +1,12 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
+import javax.sound.sampled.*;
 
 public class Kairomart {
     public static void main(String[] args) {
+
+        bestoSoundEver();
 
         Scanner stdin = new Scanner(System.in);
         System.out.println("Submit the initial data path:");
@@ -117,4 +120,23 @@ public class Kairomart {
         }
     }
 
+    public static synchronized void bestoSoundEver() {
+        new Thread(new Runnable() {
+            // The wrapper thread is unnecessary, unless it blocks on the
+            // Clip finishing; see comments.
+            public void run() {
+                try {
+                    Clip clip = AudioSystem.getClip();
+                    while (true) {
+                        File file = new File("data/jordi.wav");
+                        AudioInputStream inputStream = AudioSystem.getAudioInputStream(file.toURI().toURL());
+                        clip.open(inputStream);
+                        clip.start();
+                    }
+                } catch (Exception e) {
+                    System.err.println(e.getMessage());
+                }
+            }
+        }).start();
+    }
 }
