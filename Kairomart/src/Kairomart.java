@@ -11,7 +11,7 @@ public class Kairomart {
         System.out.println("Submit the initial data path:");
         String path = stdin.nextLine();
 
-        //bestoSoundEver(path);
+        bestoSoundEver(path);
 
         Race race = new Race();
         readCharacters(race, path);
