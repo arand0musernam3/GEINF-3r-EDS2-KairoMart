@@ -17,6 +17,10 @@ public class Vehicle implements IMotorWrapper {
 
 	public IMotor getMotor() { return _motor; }
 
+	public Vec2f position() { return _position; }
+	public float velocity() { return _velocity; }
+	public float angle() { return _angle; }
+
 	@Override
 	public void setWrappee(IMotor motor) {
 
