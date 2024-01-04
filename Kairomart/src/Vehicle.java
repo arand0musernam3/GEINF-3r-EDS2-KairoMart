@@ -23,7 +23,7 @@ public class Vehicle implements IMotorWrapper {
 		_motor = motor;
 
 		if (motor instanceof MotorDecorator) {
-			var decorator = (MotorDecorator) motor;
+			var decorator = (MotorDecorator)motor;
 			decorator.setWrapper(this);
 		}
 
