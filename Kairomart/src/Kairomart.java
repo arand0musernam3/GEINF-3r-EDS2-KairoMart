@@ -6,11 +6,12 @@ import javax.sound.sampled.*;
 public class Kairomart {
     public static void main(String[] args) {
 
-        bestoSoundEver();
 
         Scanner stdin = new Scanner(System.in);
         System.out.println("Submit the initial data path:");
         String path = stdin.nextLine();
+
+        bestoSoundEver(path);
 
         Race race = new Race();
         readCharacters(race, path);
@@ -124,13 +125,13 @@ public class Kairomart {
         }
     }
 
-    public static synchronized void bestoSoundEver() {
+    public static synchronized void bestoSoundEver(String path) {
         new Thread(new Runnable() {
             // The wrapper thread is unnecessary, unless it blocks on the
             // Clip finishing; see comments.
             public void run() {
                 try {
-                    File file = new File("data/jordi.wav");
+                    File file = new File(path + File.separator + "pipipiripipiripi.wav");
                     AudioInputStream inputStream = AudioSystem.getAudioInputStream(file.toURI().toURL());
 
                     Clip clip = AudioSystem.getClip();
