@@ -16,7 +16,8 @@ public class Player implements Comparable<Player> {
 
     @Override
     public int compareTo(Player o) {
-        return (int)(_vehicle.position().x - o._vehicle.position().x);
+        int res = _vehicle.position().x < o._vehicle.position().x ? -1 : _vehicle.position().x > _vehicle.position().x ? 1 : 0;
+        return res;
     }
 
     public Vehicle vehicle() {
