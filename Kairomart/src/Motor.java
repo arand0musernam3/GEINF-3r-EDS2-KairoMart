@@ -16,6 +16,7 @@ public abstract class Motor implements IMotor {
         return new Vec2f(x, y);
     }
 
+    @Override
     public String name() {
         return _name;
     }

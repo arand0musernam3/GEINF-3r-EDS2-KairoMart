@@ -1,5 +1,7 @@
 public interface IMotor {
 
+	String name();
+
 	/**
 	 * @return change in speed.
 	 */

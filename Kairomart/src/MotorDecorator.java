@@ -11,6 +11,13 @@ public abstract class MotorDecorator implements IMotor, IMotorWrapper {
 	}
 
 	@Override
+	public String name() {
+
+		return _wrappee.name();
+
+	}
+
+	@Override
 	public float accelerate(float speed, float by) {
 
 		return _wrappee.accelerate(speed, by);
