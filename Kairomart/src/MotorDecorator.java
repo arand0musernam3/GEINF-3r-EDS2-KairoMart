@@ -37,7 +37,7 @@ public abstract class MotorDecorator implements IMotor, IMotorWrapper {
 		_wrappee = wrappee;
 
 		if (wrappee instanceof MotorDecorator) {
-			var decorator = (MotorDecorator) wrappee;
+			var decorator = (MotorDecorator)wrappee;
 			decorator.setWrapper(this);
 		}
 
