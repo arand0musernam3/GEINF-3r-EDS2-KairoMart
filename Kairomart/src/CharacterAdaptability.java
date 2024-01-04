@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class CharacterAdaptability {
+public final class CharacterAdaptability {
     private static HashMap<Character, HashMap<Motor, Float>> _adaptabilities = new HashMap<>();
 
     /**
@@ -19,4 +19,9 @@ public class CharacterAdaptability {
     public static float getAdaptability(Character c, Motor m) {
         return _adaptabilities.get(c).get(m);
     }
+
+    private CharacterAdaptability() {
+        throw new UnsupportedOperationException();
+    }
+
 }

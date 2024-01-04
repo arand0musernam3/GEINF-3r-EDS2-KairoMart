@@ -1,7 +1,7 @@
 import java.security.InvalidParameterException;
 import java.util.HashMap;
 
-public class TerrainAdaptability {
+public final class TerrainAdaptability {
 
     private static HashMap<Terrain, HashMap<Motor, Float>> _adaptabilities = new HashMap<>();
 
@@ -21,4 +21,9 @@ public class TerrainAdaptability {
     public static float getAdaptability(Terrain t, Motor m) {
         return _adaptabilities.get(t).get(m);
     }
+
+    private TerrainAdaptability() {
+        throw new UnsupportedOperationException();
+    }
+
 }
