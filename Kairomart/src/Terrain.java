@@ -8,4 +8,12 @@ public class Terrain {
         _type = type;
         _description = desc;
     }
+
+    public String type() {
+        return _type;
+    }
+
+    public String description() {
+        return _description;
+    }
 }
