@@ -7,6 +7,7 @@ public class Quadriga extends Motor {
         _braking_power = 1f;
         _max_speed = 200f;
         _hit_resistance = 0.1f; //TODO CHANGE VALUES
+        _name = "Quadriga";
     }
 
     @Override
