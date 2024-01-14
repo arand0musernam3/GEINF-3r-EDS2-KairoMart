@@ -11,7 +11,7 @@ public class Player implements Comparable<Player> {
 
     @Override
     public String toString() {
-        return _name + " (" + _character.name() + ", " + _vehicle.getMotor().name() + "): " + _vehicle.position().x + "m";
+        return _name + " (" + _character.name() + ", " + _vehicle.getMotor().name() + "): " + _vehicle.velocity() + "m/s " + _vehicle.angle() + "rad " + _vehicle.position().x + "m";
     }
 
     @Override
