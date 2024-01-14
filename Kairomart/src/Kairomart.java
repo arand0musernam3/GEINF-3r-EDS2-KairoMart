@@ -1,12 +1,13 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Locale;
 import java.util.Scanner;
 import javax.sound.sampled.*;
 
 public class Kairomart {
 
     private static Race race = new Race();
-    private static Scanner stdin = new Scanner(System.in);
+    private static Scanner stdin = new Scanner(System.in).useLocale(Locale.FRENCH);
 
     public static void main(String[] args) {
 
@@ -111,7 +112,7 @@ public class Kairomart {
     private static void readCharacters(Race race, String path) {
         try {
             File file = new File(path + File.separator + "characters.txt");
-            Scanner reader = new Scanner(file);
+            Scanner reader = new Scanner(file).useLocale(Locale.FRENCH);
             while (reader.hasNextLine()) {
                 String name = reader.nextLine();
                 String desc = reader.nextLine();
@@ -129,7 +130,7 @@ public class Kairomart {
     private static void readPlayers(Race race, String path) {
         try {
             File file = new File(path + File.separator + "players.txt");
-            Scanner reader = new Scanner(file);
+            Scanner reader = new Scanner(file).useLocale(Locale.FRENCH);
             while (reader.hasNextLine()) {
                 String name = reader.nextLine();
                 int i_character = reader.nextInt();
