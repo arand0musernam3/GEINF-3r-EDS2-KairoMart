@@ -23,4 +23,7 @@ public class Player implements Comparable<Player> {
     public Vehicle vehicle() {
         return _vehicle;
     }
+    public Character character() {
+        return _character;
+    }
 }

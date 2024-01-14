@@ -4,16 +4,17 @@ import java.util.Scanner;
 import javax.sound.sampled.*;
 
 public class Kairomart {
+
+    private static Race race = new Race();
+    private static Scanner stdin = new Scanner(System.in);
+
     public static void main(String[] args) {
 
-
-        Scanner stdin = new Scanner(System.in);
         System.out.println("Submit the initial data path:");
         String path = stdin.nextLine();
 
         bestoSoundEver(path);
 
-        Race race = new Race();
         readCharacters(race, path);
         readPlayers(race, path);
 
@@ -24,41 +25,13 @@ public class Kairomart {
 
             switch (option) {
                 case 1:
-                    System.out.println("Entra el nom del jugador");
-                    String name = stdin.nextLine();
-
-                    race.listCharacters();
-                    System.out.println("Entra L'ÍNDEX del personatge");
-                    int character = stdin.nextInt();
-
-                    race.listVehicles();
-                    System.out.println("Entra L'ÍNDEX del vehicle");
-                    int vehicle = stdin.nextInt();
-
-                    race.addPlayer(name,character,vehicle);
-
-                    System.out.println("Jugadors inscrits:");
-                    race.listPlayers();
+                    addPlayer(stdin);
                     break;
                 case 2:
-                    System.out.println("Entra L'ÍNDEX del jugador");
-                    race.listPlayers();
-                    int index = stdin.nextInt();
-
-                    System.out.println("Què vols fer? (Entra el número)");
-                    System.out.println("1. Accelerar");
-                    System.out.println("2. Girar");
-                    int move_type = stdin.nextInt();
-
-                    System.out.println("Entra el factor del moviment (entre -1 i 1)");
-                    int factor = stdin.nextInt();
-
-                    race.updateVehicle(index,factor,move_type);
-                    System.out.println("Moviment programat, no s'aplicarà fins que es cridi la opció 3!");
+                    updatePlayer(stdin);
                     break;
                 case 3:
-                    race.moveVehicles();
-                    race.listPlayers();
+                    movePlayer();
                     break;
                 case 4:
                     race.listPlayers();
@@ -80,6 +53,7 @@ public class Kairomart {
         in.nextLine();
         return res;
     }
+
     private static void menu() {
 
         System.out.println("Menú principal:");
@@ -89,6 +63,49 @@ public class Kairomart {
         System.out.println("4. Mostrar situació de la carrera");
         System.out.println("0. Sortir");
 
+    }
+
+    private static void addPlayer(Scanner in) {
+        System.out.println("Entra el nom del jugador");
+        String name = in.nextLine();
+
+        int character;
+        do {
+            race.listCharacters();
+            System.out.println("Entra L'ÍNDEX del personatge (que no s'hagi escollit)");
+            character = in.nextInt();
+        } while (race.characterUsed(character));
+
+        race.listVehicles();
+        System.out.println("Entra L'ÍNDEX del vehicle");
+        int vehicle = in.nextInt();
+
+        race.addPlayer(name,character,vehicle);
+
+        System.out.println("Jugadors inscrits:");
+        race.listPlayers();
+    }
+
+    private static void updatePlayer(Scanner in) {
+        System.out.println("Entra L'ÍNDEX del jugador");
+        race.listPlayers();
+        int index = in.nextInt();
+
+        System.out.println("Què vols fer? (Entra el número)");
+        System.out.println("1. Accelerar");
+        System.out.println("2. Girar");
+        int move_type = in.nextInt();
+
+        System.out.println("Entra el factor del moviment (entre -1 i 1)");
+        int factor = in.nextInt();
+
+        race.updateVehicle(index,factor,move_type);
+        System.out.println("Moviment programat, no s'aplicarà fins que es cridi la opció 3!");
+    }
+
+    private static void movePlayer() {
+        race.moveVehicles();
+        race.listPlayers();
     }
 
     private static void readCharacters(Race race, String path) {

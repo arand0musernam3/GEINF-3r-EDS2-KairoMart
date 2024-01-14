@@ -31,6 +31,13 @@ public class Race {
         CharacterAdaptability.addAdaptability(aux,motorSwitch(3),h_adapt);
     }
 
+    public boolean characterUsed(int c) {
+        Character aux = _characters.get(c-1);
+        for (Player p : _players)
+            if (p.character() == aux) return true;
+        return false;
+    }
+
     public void addPlayer(String name, int i_character, int i_vehicle) {
 
         Character c = _characters.get(i_character-1);
