@@ -17,7 +17,7 @@ public abstract class Motor implements IMotor {
 
     @Override
     public final float turn(float angle, float by) {
-        return angle + by*_handling/_weight*100f;
+        return by*_handling/_weight*100f;
     }
 
     @Override
