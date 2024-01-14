@@ -2,19 +2,21 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Locale;
 import java.util.Scanner;
+import java.util.concurrent.atomic.AtomicBoolean;
 import javax.sound.sampled.*;
 
 public class Kairomart {
 
     private static Race race = new Race();
     private static Scanner stdin = new Scanner(System.in).useLocale(Locale.FRENCH);
+    private static Clip clip;
 
     public static void main(String[] args) {
 
         System.out.println("Submit the initial data path:");
         String path = stdin.nextLine();
 
-        bestoSoundEver(path);
+        clip = bestoSoundEver(path);
 
         readCharacters(race, path);
         readPlayers(race, path);
@@ -36,6 +38,9 @@ public class Kairomart {
                     break;
                 case 4:
                     race.listPlayers();
+                    break;
+                case 5:
+                    clip.stop();
                     break;
                 default:
                     System.out.println("Opció desconeguda, entra'n una altra");
@@ -62,6 +67,11 @@ public class Kairomart {
         System.out.println("2. Moure vehicle");
         System.out.println("3. Executar tick");
         System.out.println("4. Mostrar situació de la carrera");
+
+        if (clip.isActive()) {
+            System.out.println("5. Para l'àudio, si us plau!");
+        }
+
         System.out.println("0. Sortir");
 
     }
@@ -143,22 +153,21 @@ public class Kairomart {
         }
     }
 
-    public static synchronized void bestoSoundEver(String path) {
-        new Thread(new Runnable() {
-            // The wrapper thread is unnecessary, unless it blocks on the
-            // Clip finishing; see comments.
-            public void run() {
-                try {
-                    File file = new File(path + File.separator + "pipipiripipiripi.wav");
-                    AudioInputStream inputStream = AudioSystem.getAudioInputStream(file.toURI().toURL());
+    public static synchronized Clip bestoSoundEver(String path) {
 
-                    Clip clip = AudioSystem.getClip();
-                    clip.open(inputStream);
-                    clip.loop(Clip.LOOP_CONTINUOUSLY);
-                } catch (Exception e) {
-                    System.err.println(e.getMessage());
-                }
-            }
-        }).start();
+        Clip clip;
+        try {
+            File file = new File(path + File.separator + "pipipiripipiripi.wav");
+            AudioInputStream inputStream = AudioSystem.getAudioInputStream(file.toURI().toURL());
+
+            clip = AudioSystem.getClip();
+            clip.open(inputStream);
+            clip.loop(Clip.LOOP_CONTINUOUSLY);
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+            return null;
+        }
+
+        return clip;
     }
 }
