@@ -63,7 +63,7 @@ public abstract class MotorDecorator implements IMotor, IMotorWrapper {
 
 	}
 
-	public void Remove() {
+	public void remove() {
 
 		_wrapper.setWrappee(_wrappee);
 

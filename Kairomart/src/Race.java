@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Race {
 
-    Race() {
+    public Race() {
         ArrayList<Terrain> terrains = new ArrayList<>();
         terrains.add(Terrain.ROAD, new Terrain("Road", "Recently asphalted road."));
         terrains.add(Terrain.MUD, new Terrain("Mud", "Slippery and gets your car dirty."));
@@ -53,7 +53,7 @@ public class Race {
         _terrain_control.put(v,terrain_adaptability);
     }
 
-    public void updateVehicle(int i_player, int factor, int move_type) {
+    public void updateVehicle(int i_player, float factor, int move_type) {
         if (move_type == 1)
             _players.get(i_player-1).vehicle().accelerate(factor);
         else if (move_type == 2)

@@ -97,7 +97,7 @@ public class Kairomart {
         int move_type = in.nextInt();
 
         System.out.println("Entra el factor del moviment (entre -1 i 1)");
-        int factor = in.nextInt();
+        float factor = in.nextFloat();
 
         race.updateVehicle(index,factor,move_type);
         System.out.println("Moviment programat, no s'aplicarà fins que es cridi la opció 3!");
