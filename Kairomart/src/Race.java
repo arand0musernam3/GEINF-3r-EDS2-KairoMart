@@ -73,6 +73,9 @@ public class Race {
     public void listCharacters() {
         int i = 1;
         for (Character c : _characters) {
+            if (characterUsed(i)) {
+                System.out.print("SELECCIONAT // ");
+            }
             System.out.println(i + ". " + c.name() + ": " + c.description());
             i++;
         }
