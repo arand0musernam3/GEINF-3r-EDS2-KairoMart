@@ -37,7 +37,7 @@ public class Vehicle implements IMotorWrapper {
 	public float accelerate(float by) {
 
 		float chg = _motor.accelerate(_velocity, by);
-		_velocity += chg;
+		_velocity = Math.max(0f, _velocity + chg);
 
 		return chg;
 	}
