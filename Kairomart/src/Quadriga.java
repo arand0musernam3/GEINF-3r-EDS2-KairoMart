@@ -1,7 +1,7 @@
 public class Quadriga extends Motor {
 
     Quadriga() {
-        _acceleration = 2f;
+        _acceleration = 30f;
         _handling = 0.5f;
         _weight = 100f;
         _braking_power = 1f;

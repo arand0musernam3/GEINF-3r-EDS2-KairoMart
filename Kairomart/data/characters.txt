@@ -1,13 +1,13 @@
 willy
 The fear of girls
-0,29
-0,5
+0,9
+0,7
 0,8
 nani
 The fear of watatata
 0,9
-0,6
-0,5
+0,75
+0,85
 jordiconda
 The fear of fat
 0,7
@@ -25,16 +25,16 @@ The fear of Uri
 0,7
 kairo
 The fear of KairoMart
-0,666
+0,7777
 0,87
 0,8
 toast
 The fear of Mushrooms
 0,7
-0,6
-0,8
+0,9
+0,99
 paperdewater
 The fear of Frxas
-0,5678
+0,76
 0,9
 0,8

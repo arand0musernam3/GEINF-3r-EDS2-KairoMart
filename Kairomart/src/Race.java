@@ -109,5 +109,5 @@ public class Race {
     private final Biga _biga;
     private final Horse _horse;
 
-    public static float delta_time = 1;
+    public static float delta_time = 5;
 }

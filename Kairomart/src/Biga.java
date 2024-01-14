@@ -1,7 +1,7 @@
 public class Biga extends Motor {
 
     Biga() {
-        _acceleration = 1f;
+        _acceleration = 10f;
         _handling = 0.5f;
         _weight = 100f;
         _braking_power = 1f;

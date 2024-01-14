@@ -1,7 +1,7 @@
 public class Horse extends Motor {
 
     Horse() {
-        _acceleration = 1f;
+        _acceleration = 20f;
         _handling = 0.5f;
         _weight = 100f;
         _braking_power = 1f;
