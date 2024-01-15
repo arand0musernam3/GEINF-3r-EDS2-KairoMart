@@ -18,9 +18,10 @@ public class Race {
         _horse = new Horse();
 
         // Terrain adaptabilities
+        float[] adaptabilities = {0.9F,0.8f,0.7F,0.8F,0.7F,0.6F};
         for (int i = 0; i < 2; i++)
-            for (int j = 1; j <= 3; j++)
-                TerrainAdaptability.addAdaptability(terrains.get(i), motorSwitch(j), ((float)j*(i+1))/6); //Per dir algo, fantasia
+            for (int j = 0; j < 3; j++)
+                TerrainAdaptability.addAdaptability(terrains.get(i), motorSwitch(j+1), adaptabilities[i*3+j]);
     }
 
     public void addCharacter(String name, String desc, float q_adapt, float b_adapt, float h_adapt) {
@@ -44,7 +45,7 @@ public class Race {
         IMotor motor = motorSwitch(i_vehicle);
 
         motor = new AdaptabilityDecorator(motor,CharacterAdaptability.getAdaptability(c, motor));
-        AdaptabilityDecorator terrain_adaptability = new AdaptabilityDecorator(motor,1); // Snup doggggg
+        AdaptabilityDecorator terrain_adaptability = new AdaptabilityDecorator(motor,motor.terrainAdaptability(_track.getTerrainByPosition(new Vec2f(0,0)))); // Snup doggggg
 
         Vehicle v = new Vehicle(terrain_adaptability);
 
