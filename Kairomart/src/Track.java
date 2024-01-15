@@ -32,6 +32,7 @@ public class Track {
     }
 
     public Terrain getTerrainByPosition(Vec2f position) {
-        return _track.get((int) position.x);
+        int index = Math.max((int)position.x, 0);
+        return _track.get(index);
     }
 }
