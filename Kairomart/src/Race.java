@@ -46,7 +46,7 @@ public class Race {
         motor = new AdaptabilityDecorator(motor,CharacterAdaptability.getAdaptability(c, motor));
         AdaptabilityDecorator terrain_adaptability = new AdaptabilityDecorator(motor,1); // Snup doggggg
 
-        Vehicle v = new Vehicle(motor);
+        Vehicle v = new Vehicle(terrain_adaptability);
 
         _players.add(new Player(name, c, v));
 
