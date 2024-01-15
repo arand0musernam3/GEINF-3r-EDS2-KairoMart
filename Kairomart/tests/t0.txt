@@ -1,4 +1,4 @@
-../data
+data
 5
 1
 jugador_maniqui
@@ -7,3 +7,4 @@ jugador_maniqui
 1
 4
 3
+0

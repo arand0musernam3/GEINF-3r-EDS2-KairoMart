@@ -271,5 +271,3 @@ data
 1
 3
 0
-
-En aquest test es pot veure que l'angle pot fer que un vehicle tiri endarrere!

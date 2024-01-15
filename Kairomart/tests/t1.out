@@ -1,5 +1,4 @@
 Submit the initial data path:
-data
 Menú principal:
 1. Introduir jugador
 2. Moure vehicle
@@ -7,17 +6,13 @@ Menú principal:
 4. Mostrar situació de la carrera
 5. Para l'àudio, si us plau!
 0. Sortir
-
-5
 Menú principal:
 1. Introduir jugador
 2. Moure vehicle
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-1
 Entra el nom del jugador
-GottaGoFast
 SELECCIONAT // 1. willy: The fear of girls
 SELECCIONAT // 2. nani: The fear of watatata
 SELECCIONAT // 3. jordiconda: The fear of fat
@@ -27,12 +22,10 @@ SELECCIONAT // 5. uri_sis: The fear of Uri
 7. toast: The fear of Mushrooms
 8. paperdewater: The fear of Frxas
 Entra L'ÍNDEX del personatge (que no s'hagi escollit)
-6
 1. Quadriga
 2. Biga
 3. Horse
 Entra L'ÍNDEX del vehicle
-2
 Jugadors inscrits:
 1. greixina (willy, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 2. naniol (nani, Biga): 0.0m/s 0.0rad 0.0m(0%)
@@ -46,9 +39,7 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-1
 Entra el nom del jugador
-2fast4u
 SELECCIONAT // 1. willy: The fear of girls
 SELECCIONAT // 2. nani: The fear of watatata
 SELECCIONAT // 3. jordiconda: The fear of fat
@@ -58,12 +49,10 @@ SELECCIONAT // 6. kairo: The fear of KairoMart
 7. toast: The fear of Mushrooms
 8. paperdewater: The fear of Frxas
 Entra L'ÍNDEX del personatge (que no s'hagi escollit)
-7
 1. Quadriga
 2. Biga
 3. Horse
 Entra L'ÍNDEX del vehicle
-1
 Jugadors inscrits:
 1. greixina (willy, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 2. naniol (nani, Biga): 0.0m/s 0.0rad 0.0m(0%)
@@ -78,9 +67,7 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-1
 Entra el nom del jugador
-momGetTheCamera
 SELECCIONAT // 1. willy: The fear of girls
 SELECCIONAT // 2. nani: The fear of watatata
 SELECCIONAT // 3. jordiconda: The fear of fat
@@ -90,12 +77,10 @@ SELECCIONAT // 6. kairo: The fear of KairoMart
 SELECCIONAT // 7. toast: The fear of Mushrooms
 8. paperdewater: The fear of Frxas
 Entra L'ÍNDEX del personatge (que no s'hagi escollit)
-8
 1. Quadriga
 2. Biga
 3. Horse
 Entra L'ÍNDEX del vehicle
-3
 Jugadors inscrits:
 1. greixina (willy, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 2. naniol (nani, Biga): 0.0m/s 0.0rad 0.0m(0%)
@@ -111,7 +96,6 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-2
 Entra L'ÍNDEX del jugador
 1. greixina (willy, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 2. naniol (nani, Biga): 0.0m/s 0.0rad 0.0m(0%)
@@ -121,13 +105,10 @@ Entra L'ÍNDEX del jugador
 6. GottaGoFast (kairo, Biga): 0.0m/s 0.0rad 0.0m(0%)
 7. 2fast4u (toast, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 8. momGetTheCamera (paperdewater, Horse): 0.0m/s 0.0rad 0.0m(0%)
-6
 Què vols fer? (Entra el número)
 1. Accelerar
 2. Girar
-1
 Entra el factor del moviment (entre -1 i 1)
-1
 Moviment programat, no s'aplicarà fins que es cridi la opció 3!
 Menú principal:
 1. Introduir jugador
@@ -135,23 +116,19 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-2
 Entra L'ÍNDEX del jugador
 1. greixina (willy, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 2. naniol (nani, Biga): 0.0m/s 0.0rad 0.0m(0%)
 3. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
 4. diabla_de_tres_colores (pafefo, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 5. uriol (uri_sis, Biga): 0.0m/s 0.0rad 0.0m(0%)
-6. GottaGoFast (kairo, Biga): 43.5m/s 0.0rad 0.0m(0%)
+6. GottaGoFast (kairo, Biga): 34.8m/s 0.0rad 0.0m(0%)
 7. 2fast4u (toast, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 8. momGetTheCamera (paperdewater, Horse): 0.0m/s 0.0rad 0.0m(0%)
-7
 Què vols fer? (Entra el número)
 1. Accelerar
 2. Girar
-1
 Entra el factor del moviment (entre -1 i 1)
-1
 Moviment programat, no s'aplicarà fins que es cridi la opció 3!
 Menú principal:
 1. Introduir jugador
@@ -159,23 +136,19 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-2
 Entra L'ÍNDEX del jugador
 1. greixina (willy, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 2. naniol (nani, Biga): 0.0m/s 0.0rad 0.0m(0%)
 3. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
 4. diabla_de_tres_colores (pafefo, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 5. uriol (uri_sis, Biga): 0.0m/s 0.0rad 0.0m(0%)
-6. GottaGoFast (kairo, Biga): 43.5m/s 0.0rad 0.0m(0%)
-7. 2fast4u (toast, Quadriga): 105.0m/s 0.0rad 0.0m(0%)
+6. GottaGoFast (kairo, Biga): 34.8m/s 0.0rad 0.0m(0%)
+7. 2fast4u (toast, Quadriga): 94.5m/s 0.0rad 0.0m(0%)
 8. momGetTheCamera (paperdewater, Horse): 0.0m/s 0.0rad 0.0m(0%)
-8
 Què vols fer? (Entra el número)
 1. Accelerar
 2. Girar
-1
 Entra el factor del moviment (entre -1 i 1)
-1
 Moviment programat, no s'aplicarà fins que es cridi la opció 3!
 Menú principal:
 1. Introduir jugador
@@ -183,10 +156,9 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-3
-1. 2fast4u (toast, Quadriga): 105.0m/s 0.0rad 73.5m(0%)
-2. momGetTheCamera (paperdewater, Horse): 80.0m/s 0.0rad 64.0m(0%)
-3. GottaGoFast (kairo, Biga): 43.5m/s 0.0rad 37.845m(0%)
+1. 2fast4u (toast, Quadriga): 94.5m/s 0.0rad 59.535m(0%)
+2. momGetTheCamera (paperdewater, Horse): 56.0m/s 0.0rad 31.359999m(0%)
+3. GottaGoFast (kairo, Biga): 34.8m/s 0.0rad 24.2208m(0%)
 4. uriol (uri_sis, Biga): 0.0m/s 0.0rad 0.0m(0%)
 5. diabla_de_tres_colores (pafefo, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 6. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
@@ -198,23 +170,19 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-2
 Entra L'ÍNDEX del jugador
-1. 2fast4u (toast, Quadriga): 105.0m/s 0.0rad 73.5m(0%)
-2. momGetTheCamera (paperdewater, Horse): 80.0m/s 0.0rad 64.0m(0%)
-3. GottaGoFast (kairo, Biga): 43.5m/s 0.0rad 37.845m(0%)
+1. 2fast4u (toast, Quadriga): 94.5m/s 0.0rad 59.535m(0%)
+2. momGetTheCamera (paperdewater, Horse): 56.0m/s 0.0rad 31.359999m(0%)
+3. GottaGoFast (kairo, Biga): 34.8m/s 0.0rad 24.2208m(0%)
 4. uriol (uri_sis, Biga): 0.0m/s 0.0rad 0.0m(0%)
 5. diabla_de_tres_colores (pafefo, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 6. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
 7. naniol (nani, Biga): 0.0m/s 0.0rad 0.0m(0%)
 8. greixina (willy, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
-1
 Què vols fer? (Entra el número)
 1. Accelerar
 2. Girar
-1
 Entra el factor del moviment (entre -1 i 1)
-1
 Moviment programat, no s'aplicarà fins que es cridi la opció 3!
 Menú principal:
 1. Introduir jugador
@@ -222,23 +190,19 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-2
 Entra L'ÍNDEX del jugador
-1. 2fast4u (toast, Quadriga): 210.0m/s 0.0rad 73.5m(0%)
-2. momGetTheCamera (paperdewater, Horse): 80.0m/s 0.0rad 64.0m(0%)
-3. GottaGoFast (kairo, Biga): 43.5m/s 0.0rad 37.845m(0%)
+1. 2fast4u (toast, Quadriga): 189.0m/s 0.0rad 59.535m(0%)
+2. momGetTheCamera (paperdewater, Horse): 56.0m/s 0.0rad 31.359999m(0%)
+3. GottaGoFast (kairo, Biga): 34.8m/s 0.0rad 24.2208m(0%)
 4. uriol (uri_sis, Biga): 0.0m/s 0.0rad 0.0m(0%)
 5. diabla_de_tres_colores (pafefo, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 6. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
 7. naniol (nani, Biga): 0.0m/s 0.0rad 0.0m(0%)
 8. greixina (willy, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
-2
 Què vols fer? (Entra el número)
 1. Accelerar
 2. Girar
-1
 Entra el factor del moviment (entre -1 i 1)
-1
 Moviment programat, no s'aplicarà fins que es cridi la opció 3!
 Menú principal:
 1. Introduir jugador
@@ -246,23 +210,19 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-2
 Entra L'ÍNDEX del jugador
-1. 2fast4u (toast, Quadriga): 210.0m/s 0.0rad 73.5m(0%)
-2. momGetTheCamera (paperdewater, Horse): 176.0m/s 0.0rad 64.0m(0%)
-3. GottaGoFast (kairo, Biga): 43.5m/s 0.0rad 37.845m(0%)
+1. 2fast4u (toast, Quadriga): 189.0m/s 0.0rad 59.535m(0%)
+2. momGetTheCamera (paperdewater, Horse): 136.64m/s 0.0rad 31.359999m(0%)
+3. GottaGoFast (kairo, Biga): 34.8m/s 0.0rad 24.2208m(0%)
 4. uriol (uri_sis, Biga): 0.0m/s 0.0rad 0.0m(0%)
 5. diabla_de_tres_colores (pafefo, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 6. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
 7. naniol (nani, Biga): 0.0m/s 0.0rad 0.0m(0%)
 8. greixina (willy, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
-3
 Què vols fer? (Entra el número)
 1. Accelerar
 2. Girar
-1
 Entra el factor del moviment (entre -1 i 1)
-1
 Moviment programat, no s'aplicarà fins que es cridi la opció 3!
 Menú principal:
 1. Introduir jugador
@@ -270,10 +230,9 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-3
-1. 2fast4u (toast, Quadriga): 210.0m/s 0.0rad 220.5m(2%)
-2. momGetTheCamera (paperdewater, Horse): 176.0m/s 0.0rad 204.8m(2%)
-3. GottaGoFast (kairo, Biga): 44.477528m/s 0.0rad 76.54045m(0%)
+1. 2fast4u (toast, Quadriga): 189.0m/s 0.0rad 178.605m(1%)
+2. momGetTheCamera (paperdewater, Horse): 136.64m/s 0.0rad 107.8784m(1%)
+3. GottaGoFast (kairo, Biga): 35.772068m/s 0.0rad 49.11816m(0%)
 4. greixina (willy, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 5. naniol (nani, Biga): 0.0m/s 0.0rad 0.0m(0%)
 6. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
@@ -285,10 +244,9 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-3
-1. 2fast4u (toast, Quadriga): 210.0m/s 0.0rad 367.5m(3%)
-2. momGetTheCamera (paperdewater, Horse): 176.0m/s 0.0rad 345.6m(3%)
-3. GottaGoFast (kairo, Biga): 44.477528m/s 0.0rad 115.2359m(1%)
+1. 2fast4u (toast, Quadriga): 189.0m/s 0.0rad 297.675m(2%)
+2. momGetTheCamera (paperdewater, Horse): 136.64m/s 0.0rad 184.3968m(1%)
+3. GottaGoFast (kairo, Biga): 35.772068m/s 0.0rad 74.01552m(0%)
 4. uriol (uri_sis, Biga): 0.0m/s 0.0rad 0.0m(0%)
 5. diabla_de_tres_colores (pafefo, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 6. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
@@ -300,10 +258,9 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-3
-1. 2fast4u (toast, Quadriga): 210.0m/s 0.0rad 514.5m(5%)
-2. momGetTheCamera (paperdewater, Horse): 176.0m/s 0.0rad 486.40002m(4%)
-3. GottaGoFast (kairo, Biga): 44.477528m/s 0.0rad 153.93135m(1%)
+1. 2fast4u (toast, Quadriga): 189.0m/s 0.0rad 416.745m(4%)
+2. momGetTheCamera (paperdewater, Horse): 136.64m/s 0.0rad 260.91522m(2%)
+3. GottaGoFast (kairo, Biga): 35.772068m/s 0.0rad 98.91288m(0%)
 4. greixina (willy, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 5. naniol (nani, Biga): 0.0m/s 0.0rad 0.0m(0%)
 6. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
@@ -315,23 +272,19 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-2
 Entra L'ÍNDEX del jugador
-1. 2fast4u (toast, Quadriga): 210.0m/s 0.0rad 514.5m(5%)
-2. momGetTheCamera (paperdewater, Horse): 176.0m/s 0.0rad 486.40002m(4%)
-3. GottaGoFast (kairo, Biga): 44.477528m/s 0.0rad 153.93135m(1%)
+1. 2fast4u (toast, Quadriga): 189.0m/s 0.0rad 416.745m(4%)
+2. momGetTheCamera (paperdewater, Horse): 136.64m/s 0.0rad 260.91522m(2%)
+3. GottaGoFast (kairo, Biga): 35.772068m/s 0.0rad 98.91288m(0%)
 4. greixina (willy, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 5. naniol (nani, Biga): 0.0m/s 0.0rad 0.0m(0%)
 6. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
 7. diabla_de_tres_colores (pafefo, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 8. uriol (uri_sis, Biga): 0.0m/s 0.0rad 0.0m(0%)
-1
 Què vols fer? (Entra el número)
 1. Accelerar
 2. Girar
-2
 Entra el factor del moviment (entre -1 i 1)
-1
 Moviment programat, no s'aplicarà fins que es cridi la opció 3!
 Menú principal:
 1. Introduir jugador
@@ -339,23 +292,19 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-2
 Entra L'ÍNDEX del jugador
-1. 2fast4u (toast, Quadriga): 210.0m/s 0.0875rad 514.5m(5%)
-2. momGetTheCamera (paperdewater, Horse): 176.0m/s 0.0rad 486.40002m(4%)
-3. GottaGoFast (kairo, Biga): 44.477528m/s 0.0rad 153.93135m(1%)
+1. 2fast4u (toast, Quadriga): 189.0m/s 0.07875rad 416.745m(4%)
+2. momGetTheCamera (paperdewater, Horse): 136.64m/s 0.0rad 260.91522m(2%)
+3. GottaGoFast (kairo, Biga): 35.772068m/s 0.0rad 98.91288m(0%)
 4. greixina (willy, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 5. naniol (nani, Biga): 0.0m/s 0.0rad 0.0m(0%)
 6. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
 7. diabla_de_tres_colores (pafefo, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 8. uriol (uri_sis, Biga): 0.0m/s 0.0rad 0.0m(0%)
-2
 Què vols fer? (Entra el número)
 1. Accelerar
 2. Girar
-1
 Entra el factor del moviment (entre -1 i 1)
-1
 Moviment programat, no s'aplicarà fins que es cridi la opció 3!
 Menú principal:
 1. Introduir jugador
@@ -363,23 +312,19 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-2
 Entra L'ÍNDEX del jugador
-1. 2fast4u (toast, Quadriga): 210.0m/s 0.0875rad 514.5m(5%)
-2. momGetTheCamera (paperdewater, Horse): 195.2m/s 0.0rad 486.40002m(4%)
-3. GottaGoFast (kairo, Biga): 44.477528m/s 0.0rad 153.93135m(1%)
+1. 2fast4u (toast, Quadriga): 189.0m/s 0.07875rad 416.745m(4%)
+2. momGetTheCamera (paperdewater, Horse): 172.1216m/s 0.0rad 260.91522m(2%)
+3. GottaGoFast (kairo, Biga): 35.772068m/s 0.0rad 98.91288m(0%)
 4. greixina (willy, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 5. naniol (nani, Biga): 0.0m/s 0.0rad 0.0m(0%)
 6. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
 7. diabla_de_tres_colores (pafefo, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 8. uriol (uri_sis, Biga): 0.0m/s 0.0rad 0.0m(0%)
-3
 Què vols fer? (Entra el número)
 1. Accelerar
 2. Girar
-2
 Entra el factor del moviment (entre -1 i 1)
--1
 Moviment programat, no s'aplicarà fins que es cridi la opció 3!
 Menú principal:
 1. Introduir jugador
@@ -387,10 +332,9 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-3
-1. 2fast4u (toast, Quadriga): 210.0m/s 0.0875rad 660.9376m(6%)
-2. momGetTheCamera (paperdewater, Horse): 195.2m/s 0.0rad 642.56006m(6%)
-3. GottaGoFast (kairo, Biga): 44.477528m/s -0.435rad 189.0231m(1%)
+1. 2fast4u (toast, Quadriga): 189.0m/s 0.07875rad 535.446m(5%)
+2. momGetTheCamera (paperdewater, Horse): 172.1216m/s 0.0rad 357.3033m(3%)
+3. GottaGoFast (kairo, Biga): 35.772068m/s -0.34800002rad 122.31781m(1%)
 4. uriol (uri_sis, Biga): 0.0m/s 0.0rad 0.0m(0%)
 5. diabla_de_tres_colores (pafefo, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 6. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
@@ -402,10 +346,9 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-3
-1. 2fast4u (toast, Quadriga): 210.0m/s 0.0875rad 807.37524m(8%)
-2. momGetTheCamera (paperdewater, Horse): 195.2m/s 0.0rad 798.7201m(7%)
-3. GottaGoFast (kairo, Biga): 44.477528m/s -0.435rad 224.11484m(2%)
+1. 2fast4u (toast, Quadriga): 189.0m/s 0.07875rad 654.147m(6%)
+2. momGetTheCamera (paperdewater, Horse): 172.1216m/s 0.0rad 453.6914m(4%)
+3. GottaGoFast (kairo, Biga): 35.772068m/s -0.34800002rad 145.72273m(1%)
 4. greixina (willy, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 5. naniol (nani, Biga): 0.0m/s 0.0rad 0.0m(0%)
 6. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
@@ -417,23 +360,19 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-2
 Entra L'ÍNDEX del jugador
-1. 2fast4u (toast, Quadriga): 210.0m/s 0.0875rad 807.37524m(8%)
-2. momGetTheCamera (paperdewater, Horse): 195.2m/s 0.0rad 798.7201m(7%)
-3. GottaGoFast (kairo, Biga): 44.477528m/s -0.435rad 224.11484m(2%)
+1. 2fast4u (toast, Quadriga): 189.0m/s 0.07875rad 654.147m(6%)
+2. momGetTheCamera (paperdewater, Horse): 172.1216m/s 0.0rad 453.6914m(4%)
+3. GottaGoFast (kairo, Biga): 35.772068m/s -0.34800002rad 145.72273m(1%)
 4. greixina (willy, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 5. naniol (nani, Biga): 0.0m/s 0.0rad 0.0m(0%)
 6. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
 7. diabla_de_tres_colores (pafefo, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 8. uriol (uri_sis, Biga): 0.0m/s 0.0rad 0.0m(0%)
-1
 Què vols fer? (Entra el número)
 1. Accelerar
 2. Girar
-1
 Entra el factor del moviment (entre -1 i 1)
--1
 Moviment programat, no s'aplicarà fins que es cridi la opció 3!
 Menú principal:
 1. Introduir jugador
@@ -441,23 +380,19 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-2
 Entra L'ÍNDEX del jugador
-1. 2fast4u (toast, Quadriga): 35.0m/s 0.0875rad 807.37524m(8%)
-2. momGetTheCamera (paperdewater, Horse): 195.2m/s 0.0rad 798.7201m(7%)
-3. GottaGoFast (kairo, Biga): 44.477528m/s -0.435rad 224.11484m(2%)
+1. 2fast4u (toast, Quadriga): 31.5m/s 0.07875rad 654.147m(6%)
+2. momGetTheCamera (paperdewater, Horse): 172.1216m/s 0.0rad 453.6914m(4%)
+3. GottaGoFast (kairo, Biga): 35.772068m/s -0.34800002rad 145.72273m(1%)
 4. greixina (willy, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 5. naniol (nani, Biga): 0.0m/s 0.0rad 0.0m(0%)
 6. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
 7. diabla_de_tres_colores (pafefo, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 8. uriol (uri_sis, Biga): 0.0m/s 0.0rad 0.0m(0%)
-2
 Què vols fer? (Entra el número)
 1. Accelerar
 2. Girar
-1
 Entra el factor del moviment (entre -1 i 1)
--1
 Moviment programat, no s'aplicarà fins que es cridi la opció 3!
 Menú principal:
 1. Introduir jugador
@@ -465,23 +400,19 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-2
 Entra L'ÍNDEX del jugador
-1. 2fast4u (toast, Quadriga): 35.0m/s 0.0875rad 807.37524m(8%)
-2. momGetTheCamera (paperdewater, Horse): 0.0m/s 0.0rad 798.7201m(7%)
-3. GottaGoFast (kairo, Biga): 44.477528m/s -0.435rad 224.11484m(2%)
+1. 2fast4u (toast, Quadriga): 31.5m/s 0.07875rad 654.147m(6%)
+2. momGetTheCamera (paperdewater, Horse): 0.0m/s 0.0rad 453.6914m(4%)
+3. GottaGoFast (kairo, Biga): 35.772068m/s -0.34800002rad 145.72273m(1%)
 4. greixina (willy, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 5. naniol (nani, Biga): 0.0m/s 0.0rad 0.0m(0%)
 6. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
 7. diabla_de_tres_colores (pafefo, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 8. uriol (uri_sis, Biga): 0.0m/s 0.0rad 0.0m(0%)
-3
 Què vols fer? (Entra el número)
 1. Accelerar
 2. Girar
-1
 Entra el factor del moviment (entre -1 i 1)
--1
 Moviment programat, no s'aplicarà fins que es cridi la opció 3!
 Menú principal:
 1. Introduir jugador
@@ -489,10 +420,9 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-3
-1. 2fast4u (toast, Quadriga): 35.0m/s 0.0875rad 831.7815m(8%)
-2. momGetTheCamera (paperdewater, Horse): 0.0m/s 0.0rad 798.7201m(7%)
-3. GottaGoFast (kairo, Biga): 44.381878m/s -0.435rad 259.1311m(2%)
+1. 2fast4u (toast, Quadriga): 31.5m/s 0.07875rad 673.9305m(6%)
+2. momGetTheCamera (paperdewater, Horse): 0.0m/s 0.0rad 453.6914m(4%)
+3. GottaGoFast (kairo, Biga): 35.677433m/s -0.34800002rad 169.06573m(1%)
 4. uriol (uri_sis, Biga): 0.0m/s 0.0rad 0.0m(0%)
 5. diabla_de_tres_colores (pafefo, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 6. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
@@ -504,10 +434,9 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-3
-1. 2fast4u (toast, Quadriga): 35.0m/s 0.0875rad 856.18774m(8%)
-2. momGetTheCamera (paperdewater, Horse): 0.0m/s 0.0rad 798.7201m(7%)
-3. GottaGoFast (kairo, Biga): 44.381878m/s -0.435rad 294.14737m(2%)
+1. 2fast4u (toast, Quadriga): 31.5m/s 0.07875rad 693.714m(6%)
+2. momGetTheCamera (paperdewater, Horse): 0.0m/s 0.0rad 453.6914m(4%)
+3. GottaGoFast (kairo, Biga): 35.677433m/s -0.34800002rad 192.40875m(1%)
 4. greixina (willy, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 5. naniol (nani, Biga): 0.0m/s 0.0rad 0.0m(0%)
 6. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
@@ -519,10 +448,9 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-3
-1. 2fast4u (toast, Quadriga): 35.0m/s 0.0875rad 880.594m(8%)
-2. momGetTheCamera (paperdewater, Horse): 0.0m/s 0.0rad 798.7201m(7%)
-3. GottaGoFast (kairo, Biga): 44.381878m/s -0.435rad 329.16364m(3%)
+1. 2fast4u (toast, Quadriga): 31.5m/s 0.07875rad 713.4975m(7%)
+2. momGetTheCamera (paperdewater, Horse): 0.0m/s 0.0rad 453.6914m(4%)
+3. GottaGoFast (kairo, Biga): 35.677433m/s -0.34800002rad 215.75177m(2%)
 4. uriol (uri_sis, Biga): 0.0m/s 0.0rad 0.0m(0%)
 5. diabla_de_tres_colores (pafefo, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 6. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
@@ -534,10 +462,9 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-4
-1. 2fast4u (toast, Quadriga): 35.0m/s 0.0875rad 880.594m(8%)
-2. momGetTheCamera (paperdewater, Horse): 0.0m/s 0.0rad 798.7201m(7%)
-3. GottaGoFast (kairo, Biga): 44.381878m/s -0.435rad 329.16364m(3%)
+1. 2fast4u (toast, Quadriga): 31.5m/s 0.07875rad 713.4975m(7%)
+2. momGetTheCamera (paperdewater, Horse): 0.0m/s 0.0rad 453.6914m(4%)
+3. GottaGoFast (kairo, Biga): 35.677433m/s -0.34800002rad 215.75177m(2%)
 4. uriol (uri_sis, Biga): 0.0m/s 0.0rad 0.0m(0%)
 5. diabla_de_tres_colores (pafefo, Quadriga): 0.0m/s 0.0rad 0.0m(0%)
 6. lil_wiltxer (jordiconda, Horse): 0.0m/s 0.0rad 0.0m(0%)
@@ -549,7 +476,5 @@ Menú principal:
 3. Executar tick
 4. Mostrar situació de la carrera
 0. Sortir
-0
 
 Process finished with exit code 0
-

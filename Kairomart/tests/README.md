@@ -5,3 +5,7 @@ This test subscribes a new player to the game, it tries to select an already cho
 This test is a complete demo of the capabilities of the vehicles and characters. It shows their acceleration, turning and braking powers as well as the insertion of new characters to the game.
 
 ## Test 2
+This test shows that the distance increment changes when the vehicle reaches a different terrain. Note that the velocity display doesn't change (due to testing reasons), that's the base velocity without adaptors.
+
+## Test 3
+This test is a demo that shows that a vehicle can go back by an angle increment.
